@@ -20,7 +20,7 @@ import Footer from './components/Footer';
 export default () => (
   <>
     <SafeAreaView style={styles.topArea} />
-    <StatusBar barStyle="light-content" />
+    <StatusBar barStyle="light-content" backgroundColor="rgb(21, 26, 48)" />
     <SafeAreaView style={styles.mainArea}>
       <IconRegistry icons={EvaIconsPack} />
       <ApplicationProvider {...eva} theme={eva.dark}>
